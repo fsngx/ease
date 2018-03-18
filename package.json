@@ -1,0 +1,32 @@
+{
+  "name": "ease",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "doc": "typedoc --out doc src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsngx/ease.git"
+  },
+  "keywords": [],
+  "author": "Ole Ersoy",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fsngx/ease/issues"
+  },
+  "homepage": "https://github.com/fsngx/ease#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "ts-node": "^5.0.1",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.7.2"
+  }
+}
