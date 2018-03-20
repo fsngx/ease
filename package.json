@@ -7,14 +7,24 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "cover": "nyc --reporter=lcov mocha",
+    "cover": "nyc mocha",
     "doc": "typedoc --out doc src/index.ts"
   },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "reporter": ["html", "lcov"],
+    "all": true  
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fsngx/ease.git"
   },
-  "keywords": [],
+  "keywords": ["ease", "easing", "animation", "typescript", "angular"],
   "author": "Ole Ersoy",
   "license": "BSD-2-Clause",
   "bugs": {
