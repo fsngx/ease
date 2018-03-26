@@ -6,7 +6,6 @@ import 'mocha';
 describe('Ease unit tests', () => {
     it('should return a number', () => {
         let result:number = Ease.linearEase(10,10,100,100);
-        console.log("The result is: ", result);
         expect(result).to.be.a('number');
     });
 });
