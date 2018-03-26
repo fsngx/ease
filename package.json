@@ -11,14 +11,22 @@
     "doc": "typedoc --out doc src/index.ts"
   },
   "nyc": {
+    "include": [
+      "src/**/*.spec.ts"
+    ],
     "extension": [
       ".ts"
     ],
-    "exclude": [
-      "**/*.d.ts"
+    "require": [
+      "ts-node/register"
     ],
-    "reporter": ["html", "lcov"],
-    "all": true  
+    "reporter": [
+      "text-summary",
+      "html",
+      "lcov"
+    ],
+    "sourceMap": true,
+    "instrument": true
   },  
   "repository": {
     "type": "git",
