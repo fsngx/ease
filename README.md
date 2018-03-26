@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/fsngx/ease/badge.svg?branch=master)](https://coveralls.io/github/fsngx/ease?branch=master)
+
 # @fsngx/ease
 
 Animation easing functions written typescript.
