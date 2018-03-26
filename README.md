@@ -10,8 +10,6 @@ Animation easing functions written typescript.
 npm i @fsngx/ease
 ```
 
-Now open `localhost:8080` and the typedoc can be seen.
-
 ## Usage
 
 ### TypeScript
@@ -43,3 +41,5 @@ npm run doc
 npm i -g http-server
 http-server doc
 ```
+
+Now open `localhost:8080` and the typedoc can be seen.
