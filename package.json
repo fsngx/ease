@@ -6,8 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "cover": "nyc mocha",
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "doc": "typedoc --out doc src/index.ts"
   },
   "nyc": {
