@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/fsngx/ease.svg?branch=master)](https://travis-ci.org/fsngx/ease)
 [![Coverage Status](https://coveralls.io/repos/github/fsngx/ease/badge.svg?branch=master)](https://coveralls.io/github/fsngx/ease?branch=master)
 
 # @fsngx/ease
